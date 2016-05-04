@@ -16,17 +16,19 @@ bibliography: bibliography.bib
 
 ###General information
 
-Bats are a very diverse group of mammals with around 1240 species [@tudge2000variety], second only to rodents. The distinctive characteristic of this group is their ability to fly. The wings of bats are very different form the wings of birds. 
+Bats are a very diverse group of mammals with around 1240 species [@tudge2000variety; @schipper2008status], second only to rodents. The distinctive characteristic of this group is their ability to fly. The wings of bats are very different form the wings of birds. 
 Bats (Order Chiroptera), are the only group of mammals that are capable of flight.
 characteristics of wings and flight adaptations (also physiology)
 
-There are two main gorup of bats, the Megachiropterans, or flying foxes, which are large frugivorous bats that inhabit exlusively in the tropics. There are not many species of this groups of bats, they search their food using the scence of sight and smell.
+There are two main gorup of bats (see dendrogram bellow, extracted from @agnarsson2011time), the Megachiropterans, or flying foxes, which are large frugivorous bats that inhabit exlusively in the tropics. There are 170 species of megachiropterans, they search their food using the scence of sight and smell and are mostly diurnal. The large flying fox (*Pteropus vampyrus*) is the largest species of bats and belongs to this group, which can have a wingspan of 1.7 meters (5 feet 7 inches). THe bats of the genus *Rosettus* are the only megachiropterans that use a very primitive form of echolocation, and are nocturnal.
+
+![dendro](http://currents.plos.org/treeoflife/files/2011/02/figure1final.jpg)
 
 Microchiropterans are the most diverse and specialized group of bats, and they live in every continent but Antarctica. Most of them are insectivores, but some of them are pollinators.
 
 ####Adaptations for flight
 
-Bats have several adaptations for flight [@norberg1998morphological]. The wings of bats are differ
+Bats have several adaptations for flight [@norberg1998morphological]. Chiropterans are the only mammals to achieve true flight. It is supposed that ancient bats started flying around 50 million years ago [@cooper2012evolution], developing an enlarged hand with a thin membrane between them which is very different from the wings of birds. Little is known of the evolution of wings in bats, since the earliest fossils found of these groups were already winged [@gunnell2005fossil; @jepsen1966early]. However wings are not the only adaptation that bats and birds share, they have a higher metabolism than other flightless mammals of the same size [@norberg1998morphological], their bones are lighter
 
 ####reproduction
 
@@ -74,8 +76,12 @@ There are 51 species of bats in North-america, those bats belong to four distinc
 
 ###Ecosystem services delivered by bats
 
-- General information about bat ecosystem services (pollination, invertebrate control, seed dispersal)
-- More detailed information about economic benefits of having bats in north america
+Bats are very important economically in the world. Their most important benefit without a doubt is that they feed on invertebrates and thus they are one of the major natural pest controls for crops, since over two thirds of all bats are obligated insectivorous[@kunz2011ecosystem]. Due to their insect control, only in agriculture, it has been calculated that bats save farmers in the United States 72 dollars/acre [@boyles2011economic], which projects to an economic value of $22.9 billion dollars a year in the United States for the agricultural industry. 
+
+At the same time there are bats that are pollinators of flowers, and there are other frugivorous bats that help spreading seeds [@kunz2011ecosystem]. Bat pollination occurs in about 528 species of angiosperms world-wide. Even though most of north american bats are insectivorous, in arid habitats two families of suculent plants, Agavaceae and Cactaceae, rely on bats to be pollinated. Several of those species are very importante economically in northern and central america and suply food, fiber, tools, soaps, and medicine to the comunity as well as being the base of the multimillion dollar industry of tequila [@forster2003columnar]. 
+
+
+##Threats to bats
 
 ###White nose syndrom
 
@@ -95,9 +101,7 @@ The USGS has information about WNS was confirmed in Michigan and Wisconsin at 20
 
 ![Map2](https://www.whitenosesyndrome.org/sites/default/files/wns_map_20160331_0.jpg)
 
-
-
-To see: Erickson, R.A., Thogmartin, W.E., Szymanski, J.A., 2014, BatTool: an R package with GUI for assessing the effect of White-nose syndrome and other take events on Myotis spp. of bats: Source Code for Biology and Medicine, v. 9, 10 p., http://dx.doi.org/10.1186/1751-0473-9-9
+###Eolic energy and bats
 
 ##Bats in the Plumas National Forest
 
