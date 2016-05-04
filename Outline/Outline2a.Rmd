@@ -97,7 +97,7 @@ Longer description of this species and reasons of why is a species of Concern
 
 ####Layers used to classify the Plumas National Forest. 
 
-- Altitude (m.a.s.l)
+- Elevation (m.a.s.l)
 - Burn intensity basal
 - Burn intensity canopy
 - Burn intensity soil

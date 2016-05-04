@@ -16,16 +16,21 @@ bibliography: bibliography.bib
 
 ###General information
 
+Bats are a very diverse group of mammals with around 1240 species [@tudge2000variety], second only to rodents. The distinctive characteristic of this group is their ability to fly. The wings of bats are very different form the wings of birds. 
 Bats (Order Chiroptera), are the only group of mammals that are capable of flight.
 characteristics of wings and flight adaptations (also physiology)
 
-This group is one of the most diverse order of mammals in the world with around 1240 species [@tudge2000variety], second only to rodents. main groups
+There are two main gorup of bats, the Megachiropterans, or flying foxes, which are large frugivorous bats that inhabit exlusively in the tropics. There are not many species of this groups of bats, they search their food using the scence of sight and smell.
+
+Microchiropterans are the most diverse and specialized group of bats, and they live in every continent but Antarctica. Most of them are insectivores, but some of them are pollinators.
 
 ####Adaptations for flight
 
-Bats have several adaptations for flight [@norberg1998morphological]
+Bats have several adaptations for flight [@norberg1998morphological]. The wings of bats are differ
 
-reproduction
+####reproduction
+
+Chiropterans as most of mammals breed live kits, most bats have a litter size of one or two. Several bats have matternity colonies, 
 
 ####Hibernation or migration
 
@@ -47,7 +52,7 @@ colnames(z) <- c("Latitude", "meanT", "sd")
 ggplot(z, aes(x = Latitude, y= meanT)) +  geom_ribbon(ymax = (z$meanT + z$sd), ymin = (z$meanT  - z$sd), fill = "gray") + geom_line() + theme_classic() +labs(x="Latitude", y= "Max temperature - Min temperature") +  ylim(c(0,60))
 ```
 
-Bats in higher latitudes migrate to escape lower temperatures, which bring scarsity of invertebrates [@fleming2003ecology]. It has also been established that 
+Bats in higher latitudes migrate to escape lower temperatures, which bring scarsity of invertebrates [@fleming2003ecology]. It has also been established that there are important difference between sexes in terms of migration pattersn, where in most species, females migrate more often and further away than males. 
 
 Most bats (around 70% of them) feed on invertebrates, other species are frugivores, or pollinators. Some very specialized groups of bats feed exclusively on blood.
 
@@ -56,13 +61,14 @@ periods of activity
 echolocation
 
 ###Bats in northamerica
+
 - General information about bats biology, taxonomy, and natural history.
 main groups
 no species by region
 adaptations like hibernation in different areas
 There are 51 species of bats in North-america, those bats belong to four distinct families [@bradley2014revised]. The patterns of diversity are shown in the map below, where we see that bats are more abundant in the southwestern portion of the United States [@jenkins2013global]
 
-![map](batdiversity.png) 
+![map](batdiv.png) 
 
 ##Why Bats Matter
 
@@ -73,16 +79,31 @@ There are 51 species of bats in North-america, those bats belong to four distinc
 
 ###White nose syndrom
 
-As we see in the map below [@USGS2016White]
+The White Nose Syndrome (WNS) is a fatal bat disease produced by a fungus, its name is based in the white color left on the infected skin of the muzzle, ears, and wings of bats. The syndrome is characterized by the presence of abundant and delicate hyphae and conidia on bat muzzles, wing membranes, and/or pinnae [@blehert2009bat]. This desease usually causes aberrant behavior of bats during hibernation, including bats prematurely staging at hibernacula entrances, failure of bats to arouse normally in response to disturbance, and diurnal and mid-winter emergence [@langwig2012sociality].
+The fungus that produces the disease its call *Pseudogymnoascus destructans*, formerly known as *Geomyces destructans*, because initial analysis of small subunit (SSU) and internal transcribed spacer (ITS) rRNA gene sequences placed this fungus into this genus [@gargas2009geomyces]. The fungus has very slow growth on artificial media and produces arthroconidia on verticillately branched conidiophores and on prostrate hyphae, typical of genus *Geomyces*, but the asymmetrically curved conidia are unlike any species previusly described [@gargas2009geomyces]. 
+
+Dermatologically speaking, until 2009 the WNS was poorly understood, so it was necessary detail information to compare the disease with other dermatology issues [@meteyer2009histopathologic]. The same year, it was published the necessity of histological examination by microscope to confirm the fungus. In this way, infected bats showed that fungal hyphae pervade the bat tissue filling hair follicles and sebaceous glands, yet the fungus does not typically lead to inflammation or immune response in the tissue of bats [@meteyer2009histopathologic]. Even more, it was demonstrated that this wasn´t a typical disease where the fungus is an opportunistic pathogen, the exposure of healthy little brown bats (*Myotis lucifugus*) to pure cultures of *G. destructans* causes WNS [@lorch2011experimental]
+*P. destructans* is capable of living at relatively low temperatures. Thermal performance curves generated for each isolate indicated thermal optima for growth between 12.5 and 15.8°C (54.5 to 60.44 °F) and an upper critical temperature for growth between 19.0 and 19.8°C (66.2 to 67.6°F) [@verant2012temperature], no growth at 24°C (75.2°F) or above [@gargas2009geomyces]. This makes this fungus to grow optimally at the temperatures found in winter bat hibernacula.  Bats are thought to have lowered immune responses during hibernation torpor [@carey2003mammalian], which explains the situation may predispose bats to infection by *P. destructans* [@gargas2009geomyces].
+
+In general terms, novel pathogens introduced to new host communities can have devastating effects on wildlife populations, drive species to extinction and thereby decrease biodiversity [@daszak2000emerging; @smith2006evidence]. To this date WNS has been estimated to have killed over five million North American bats [@verant2012temperature]. 
+
+It has seen that differences in temperature at locations within underground sites occupied by hibernating bats may influence both progression and severity of WNS among infected bats and environmental persistence and transmission of the fungus [@verant2012temperature], even some modeling suggests that localized thermal refugia of 28°C (82.4°F) could improve survival by up to 75%, depending on how WNS acts to disrupt energy balance [@boyles2009could]. It seems to be that in hibernating bats infected with *P. destructans* the impacts of disease on solitary species were lower in smaller populations, whereas in socially gregarious species declines were equally severe in populations spanning four orders of magnitude. However, as these gregarious species declined, we observed decreases in social group size that reduced the likelihood of extinction [@langwig2012sociality]
+
+WNS is dispersing notoriously trough North America. The first evidence of WNS in bats was on February 2006 in New York, and it was documented by a photograph taken at Howes Cave, 52 km west of Albany [@blehert2009bat].  Until 2009, the disease was dispread in the northeastern United States and it was confirmed by gross and histologic examinations of bats at 33 sites in Connecticut, Massachusetts, New York, and Vermont [@blehert2009bat]. 
+ 
+The USGS has information about WNS was confirmed in Michigan and Wisconsin at 2014, and for 2016 in State of Washington  (see the map below [@USGS2016White]). However, a new study indicates that six *Pseudomonas* isolates can inhibit the growth of *P. destructans* in vitro and should be studied further as a possible probiotic to protect bats from white-nose syndrome [@hoyt2015bacteria].
 
 ![Map2](https://www.whitenosesyndrome.org/sites/default/files/wns_map_20160331_0.jpg)
 
-- Where white nose syndrome is right now
-- Sources on where to find updated information
+
+
+To see: Erickson, R.A., Thogmartin, W.E., Szymanski, J.A., 2014, BatTool: an R package with GUI for assessing the effect of White-nose syndrome and other take events on Myotis spp. of bats: Source Code for Biology and Medicine, v. 9, 10 p., http://dx.doi.org/10.1186/1751-0473-9-9
 
 ##Bats in the Plumas National Forest
 
 ###Species present in the Plumas National Forest
+
+![map3](california2.png)
 
 Small description on each of the species
 
@@ -132,7 +153,7 @@ Randomized stratification can also be used to improve population representativen
 
 ###Layers used to classify the Plumas National Forest
 
-- Altitude (m.a.s.l)
+- Elevation (m.a.s.l)
 - Burn intensity basal
 - Burn intensity canopy
 - Burn intensity soil
