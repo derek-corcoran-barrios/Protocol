@@ -82,11 +82,13 @@ There is strong evidence that ancient bats did echolocate, and that megachiropte
 
 ###Bats in northamerica
 
-There are 51 species of bats in North-america, those bats belong to four distinct families [@bradley2014revised]. The patterns of diversity are shown in the map below, where we see that bats are more abundant in the southwestern portion of the United States [@jenkins2013global]
+There are 51 species of bats in North-america, those bats belong to four distinct families (Molossidae, Mormoopidae, Phyllostomidae, and Vespertilionidae) [@bradley2014revised]. The patterns of diversity are shown in the map below, where we see that bats are more abundant in the southwestern portion of the United States [@jenkins2013global]
 
 ![map](batdiv.png) 
 
-Of the 51 species present in northamerica, five are federally endangered, and 19 species, have been listed as federal Species of Concern [@bogan1996diversity]
+Of the 51 species present in northamerica, eleve  are federally endangered [@bogan1996diversity]. The bat species that are considered federally endangered are the Florida bonneted bat (*Eumops floridanus*), the gray bat	(*Myotis grisescens*) ,Hawaiian hoary bat (*Lasiurus cinereus semotus*), Indiana bat (*Myotis sodalis*), lesser long-nosed bat 	(*Leptonycteris curasoae yerbabuenae*), little Mariana fruit bat (*Pteropus tokudae*), Mariana fruit (*Pteropus mariannus mariannus*), Mexican long-nosed bat (*Leptonycteris nivalis*), Northern long-eared bat (*Myotis septentrionalis*), Ozark big-eared bat 	(*Corynorhinus townsendii ingens*), Pacific sheath-tailed bat (*Emballonura semicaudata rotensis*), Virginia big-eared bat (*Corynorhinus townsendii virginianus*). 
+
+All northamerican species are insectivorous but three leaf-nosed bats species from the Phyllostomidae family, these species are dependent on nectar and pollen.
 
 ##Why Bats Matter
 
