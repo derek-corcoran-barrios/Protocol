@@ -16,19 +16,17 @@ bibliography: bibliography.bib
 
 ###General information
 
-Bats are a very diverse group of mammals with around 1240 species [@tudge2000variety; @schipper2008status], second only to rodents. The distinctive characteristic of this group is their ability to fly. The wings of bats are very different form the wings of birds. 
-Bats (Order Chiroptera), are the only group of mammals that are capable of flight.
-characteristics of wings and flight adaptations (also physiology)
+Bats are one of the most diverse group of mammals with around 1240 species [@tudge2000variety; @schipper2008status], second only to rodents. The distinctive characteristic of this group is their ability to fly.
 
-There are two main gorup of bats (see dendrogram bellow, extracted from @agnarsson2011time), the Megachiropterans, or flying foxes, which are large frugivorous bats that inhabit exlusively in the tropics. There are 170 species of megachiropterans, they search their food using the scence of sight and smell and are mostly diurnal. The large flying fox (*Pteropus vampyrus*) is the largest species of bats and belongs to this group, which can have a wingspan of 1.7 meters (5 feet 7 inches). THe bats of the genus *Rosettus* are the only megachiropterans that use a very primitive form of echolocation, and are nocturnal.
+There are two main gorup of bats (see dendrogram bellow, extracted from @agnarsson2011time), the Megachiropterans, or flying foxes, which are large frugivorous bats that inhabit exlusively in the tropics. There are around 170 species of megachiropterans, they search their food using the scence of sight and smell and are mostly diurnal. The large flying fox (*Pteropus vampyrus*) is the largest species of bats and belongs to this group, which can have a wingspan of 1.7 meters (5 feet 7 inches). Within this group only the bats of the genus *Rosettus* use a very primitive form of echolocation, and are nocturnal.
 
 ![dendro](http://currents.plos.org/treeoflife/files/2011/02/figure1final.jpg)
 
-Microchiropterans are the most diverse and specialized group of bats, and they live in every continent but Antarctica. Most of them are insectivores, but some of them are pollinators.
+Microchiropterans are the most diverse and specialized group of bats, and they live in every continent but Antarctica. Most of them are insectivores, but some of them are pollinators. Ussually these bats are a lot smaller than megachiropterans, they are nocturnal, and rely on ecolocation to detect their preys and navigate throught space
 
 ####Adaptations for flight
 
-Bats have several adaptations for flight [@norberg1998morphological]. Chiropterans are the only mammals to achieve true flight. It is supposed that ancient bats started flying around 50 million years ago [@cooper2012evolution], developing an enlarged hand with a thin membrane between them which is very different from the wings of birds. Little is known of the evolution of wings in bats, since the earliest fossils found of these groups were already winged [@gunnell2005fossil; @jepsen1966early]. However wings are not the only adaptation that bats and birds share, they have a higher metabolism than other flightless mammals of the same size [@norberg1998morphological], their bones are lighter
+Chiropterans are the only mammals to achieve true flight, bats have several adaptations for flight [@norberg1998morphological]. It is supposed that ancient bats started flying around 50 million years ago [@cooper2012evolution], developing an enlarged hand with a thin membrane between them which is very different from the wings of birds. Little is known of the evolution of flight in bats, since the earliest fossils found of these groups were already winged [@gunnell2005fossil; @jepsen1966early]. However wings are not the only adaptation that bats and birds share, they noth have a higher metabolism than other flightless vertebtrates of the same size, their bones are lighter, and have enlarged pectoral muscles that allow them to fly [@norberg1998morphological].
 
 ####reproduction
 
@@ -36,7 +34,7 @@ Chiropterans as most of mammals breed live kits, most bats have a litter size of
 
 ####Hibernation or migration
 
-Most north-american bats hibernate during the winter, some species migrate regionally (140 to 350 miles), in order to get to central hybernacula. Some other bats however can migrate upto 1180 miles to get to warmer latitudes [@fleming2003ecology, @mcguire2012migratory] and avoid hibernating all together. Some species such as the silver-haired bats (*Lasionycteris noctivagans*) may migrate over 155 miles a day [@mcguire2012migratory]. In general bats that live in higher latitudes tend to be migratory whereas bats that live in lower latitudes usually don't migrate, this is partly due to colder temperatures in higher latitudes, but also there is a higher Temperature Annual Range in higher latitudes as seen in the graph below (data extracted from @hijmans2005very).
+Most north-american bats hibernate during the winter, but this is not true for all chiropterans. Some species migrate regionally (140 to 350 miles), in order to get to central hybernacula. Some other bats however can migrate upto 1180 miles to get to warmer latitudes [@fleming2003ecology, @mcguire2012migratory] and avoid hibernating all together. Some species such as the silver-haired bats (*Lasionycteris noctivagans*) may migrate over 155 miles a day [@mcguire2012migratory]. In general bats that live in higher latitudes tend to be migratory whereas bats that live in lower latitudes usually don't migrate, this is partly due to colder temperatures in higher latitudes, but also there is a higher Temperature Annual Range in higher latitudes as seen in the graph below (data extracted from @hijmans2005very).
 
 ```{r,echo=FALSE,cache=TRUE, warning=FALSE, message=TRUE}
 library(raster)
@@ -54,7 +52,7 @@ colnames(z) <- c("Latitude", "meanT", "sd")
 ggplot(z, aes(x = Latitude, y= meanT)) +  geom_ribbon(ymax = (z$meanT + z$sd), ymin = (z$meanT  - z$sd), fill = "gray") + geom_line() + theme_classic() +labs(x="Latitude", y= "Max temperature - Min temperature") +  ylim(c(0,60))
 ```
 
-Bats in higher latitudes migrate to escape lower temperatures, which bring scarsity of invertebrates [@fleming2003ecology]. It has also been established that there are important difference between sexes in terms of migration pattersn, where in most species, females migrate more often and further away than males. 
+Bats in higher latitudes migrate to escape lower temperatures, which bring scarsity of invertebrates [@fleming2003ecology]. It has also been established that there are important difference between sexes in terms of migration patterns, where in most species, females migrate more often and further away than males. There are several studies that show that there are different metabolical needs between males and females, sicen males spend more energy in autumn due to spermatogenesis, and females spend more energy in spring due to pregnancy and lactation, this would result in the differences in migration between them [@cryan2003sex].
 
 Most bats (around 70% of them) feed on invertebrates, other species are frugivores, or pollinators. Some very specialized groups of bats feed exclusively on blood.
 
@@ -102,6 +100,10 @@ The USGS has information about WNS was confirmed in Michigan and Wisconsin at 20
 ![Map2](https://www.whitenosesyndrome.org/sites/default/files/wns_map_20160331_0.jpg)
 
 ###Eolic energy and bats
+
+Besides WNS, the biggest threat to bats in northamerica is wind turbines. Every autumn high mortalities occur when migrating bats crash into this turbines [@cryan2011wind].
+In a review of all multiple mortality events, defined as events where more than 10 bats died at a specific location on the same date, it was estimated that wind turbines have been the cause of more cumulative multiple mortality events than any other reason, followed closely by WNS [@o2016multiple]. From 2003 to 2013 at least 5,626 bats of 27 species in 18 countries where registered to have died in wind turbines [@rodrigues2015guidelines], and this should be only a fraction of the likely mortality, with estimations of 888,000 bat deaths only in northamerica for the year 2012 [@smallwood2013comparing]. It is also important to note that mortallity in not equally distributed among bat species most deaths that happen in wind turbines correspond to migratory species that roost in trees [@arnett2008patterns].
+
 
 ##Bats in the Plumas National Forest
 
