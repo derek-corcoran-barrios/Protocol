@@ -132,27 +132,118 @@ In a review of all multiple mortality events, defined as events where more than 
 
 ###Species present in the Plumas National Forest
 
+For California, as we see in the map below, the Plumas National Forest is on a low diversity area, but we can still detect 17 different species there.
+
 ![map3](california2.png)
 
 Small description on each of the species
 
-- *Myotis yumanensis* (Myyu)
+- *Myotis yumanensis* (Myyu) 
+    + Wingspan: 235 mm
+    + Feeding: moths, midges, caddisflies, craneflies, beetles and other various small insects 
+    + Biomes: desert or dune, savanna or grassland, chaparral, forest
+
+![myca](MYYU.png)
+
 - *Myotis californicus* (Myca)
+    + Wingspan:
+    + Feeding: flies, moths and beetles
+    + Biomes: desert or dune, forest, mountains
+
+![myca](MYCA.png)
+
 - *Myotis ciliolabrum* (Myci)
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
+
+![myca](MYCI.png)
+
 - *Myotis volans* (Myvo)
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
+
+![myca](MYVO.png)
+
 - *Myotis lucifugus* (Mylu)
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
+
+![myca](MYLU.png)
+
 - *Parastrellus hesperus* (Pahe)
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
+    
 - *Lasiurus blossevillii* (Labo)
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
+    
 - *Myotis evotis* (Myev)
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
+    
 - *Antrozous pallidus*  **(Anpa)**
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
+    
 - *Eptesicus fuscus* (Epfu)
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
+
 - *Lasionycteris noctivagans* (Lano)
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
+    
 - *Myotis thysanodes* **(Myth)**
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
 - *Tadarida brasiliensis* (Tabr)
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
 - *Lasiurus cinereus* (Laci)
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
 - *Corynorhinus townsendii* **(Coto)**
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
+    
 - *Euderma maculatum* (Euma)
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
+    
 - *Eumops perotis* (Eupe)
+    + Distribution:
+    + Wingspan:
+    + Feeding:
+    + Biomes
 
 ####Product Occupancy map for species studied in the Plumas National Forest
 
