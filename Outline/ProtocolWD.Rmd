@@ -1,13 +1,11 @@
 ---
-title: "Protocols for Passive Acoustic Sampling of Bats in the Plumas National Forest"
+title: "ProtocolWD"
 author: "Derek Corcoran"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-output: 
-  pdf_document:
+output:
+  word_document:
     fig_caption: yes
     toc: true
-    toc_depth: 3
-    number_sections: true  
 bibliography: bibliography.bib
 ---
 
