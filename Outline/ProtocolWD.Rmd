@@ -443,6 +443,8 @@ Attach the microphone to the PVC pipe in the clamp, and attach the clamp to the 
 
 Return to the sampling point, open the box, and put the toggle in OFF before you do anything else. Make sure to put everything neatly in the box, and return with the detector, pipe, iron rod, clamp, ibutton and microphone.
 
+##Extracting audio files from 
+
 ##Using sonobat to automatically classify bat calls into species
 
 ###Filter low quality calls

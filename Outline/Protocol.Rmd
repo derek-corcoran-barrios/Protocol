@@ -445,15 +445,28 @@ Attach the microphone to the PVC pipe in the clamp, and attach the clamp to the 
 
 Return to the sampling point, open the box, and put the toggle in OFF before you do anything else. Make sure to put everything neatly in the box, and return with the detector, pipe, iron rod, clamp, ibutton and microphone.
 
+##Extracting audio files from the CF cards
+
+Once you have retrieved the bat detectors it is important to extract the audiofiles from the CF cards before you can classify the calls. The best way is to use the D500X  Utility Windows programs that facilitates the use of the CF cards with the detectors and can be downloaded from http://www.batsound.com. We recommend that you upgrade to the most recent version of the software, as older versions might not be fully compatible with Vista and 7.
+
 ##Using sonobat to automatically classify bat calls into species
 
 ###Filter low quality calls
 
-- How to automatically erase bad quality calls in order to diminish sonobat running time
+Besides the classification of bat calls sonobat has several utilities, such as the Batch Scrubber.
+
+![Screenshot of the Sonobat Scrubber Utility](SonobatScrub.png)
+
+The Batch Scrubber will scan through a specified directory to recognize files lacking bat calls, for example files triggered by noise and move them into a directory named "Scrubbed Files" in the same directory as the searched files. In order to use the Scrubber just press the button that looks like a folder on the upper-right corner and select the folder with the files to scrubb
 
 ###Classify bat calls
 
-- How to batch-classify the calls for one site
+Sonobat uses 74 acousitc features to classify bats into different species, in the version of the program that classifies the western species in the US, the automatic classification of Sonobat has an average accuracy of 98.6, with no species being correctly classified in less than 96% of the time.
+
+The easiest way of using sonobat for automatically classifing bat calls is using the batch classify feature after scrubbing the data (see previous section).
+
+
+![Comparative classification performance of Kaleidoscope and SonoBat on 5224 good quality species-known recordings collected and processed by T. Malloy of Stanford Jasper Ridge Biological Preserve in California (2014). "% classified" indicates the percentage of known recordings given a decision, and "% correct" indicates the rate of correct classification of those outputted with a decision.](WestSummary.png)
 
 ###Interpret the results made by sonobat
 
