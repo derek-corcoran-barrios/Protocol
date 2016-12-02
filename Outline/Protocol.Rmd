@@ -1,5 +1,5 @@
 ---
-title: "Protocols for Passive Acoustic Sampling of Bats in the Plumas National Forest"
+title: "PROTOCOLS FOR PASSIVE ACOUSTIC SAMPLING OF BATS IN THE PLUMAS NATIONAL FOREST"
 author: "Derek Corcoran"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 

@@ -1,0 +1,65 @@
+---
+title: "Donde Vivir"
+author: "Giorgia Graells & Derek Corcoran"
+date: "July 22, 2016"
+output: html_document
+---
+
+#Donde Queremos Vivir?
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(raster)
+library(rworldmap)
+data("countriesCoarse")
+```
+
+
+```{r, echo=FALSE, cache=TRUE, message=FALSE, warning=FALSE}
+World <- getData('worldclim', var='bio', res=10)
+plot(World[[5]])
+plot(countriesCoarse, add = TRUE)
+```
+
+#Cual sería la temperatura maxima que queremos aguantar en promedio en verano?
+
+Maxima promedio 26C o menor en el mes mas caluroso
+
+```{r, echo=FALSE, cache=TRUE}
+World[World[[10]] > 260] <- NA
+plot(World[[5]])
+```
+
+#Cual sería la temperatura minima que queremos aguantar en promedio en invierno?
+
+La minuma promedio de -3
+
+```{r, echo=FALSE, cache=TRUE}
+World[World[[11]] < -30] <- NA
+plot(World[[5]])
+```
+
+#Cual sería el rango de temperatura promedio que te gustaria vivir todo el año?
+
+Temperaturas promedio de entre 10 y 15 grados
+
+```{r, echo=FALSE, cache=TRUE}
+World[World[[1]] < 100] <- NA
+World[World[[1]] > 150] <- NA
+
+plot(World[[5]])
+```
+
+
+#Rango de pp
+
+entre 250 y 1000 mm
+
+```{r, echo=FALSE, cache=TRUE}
+World[World[[12]] < 250] <- NA
+World[World[[12]] > 1000] <- NA
+
+plot(World[[5]], ylim = c(-57, 0), xlim= c(-80, -50))
+plot(countriesLow, add = TRUE)
+```
+
+
